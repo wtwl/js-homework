@@ -31,9 +31,11 @@ let a = b = 5;
 let result = a + b > 4 ? 'Мало' : 'Много';
 
 // #5
-let message;
-let login = 'admin';
 
-message = login == 'Сотрудник' ? 'привет' : login == 'Директор' ? 'здравствуйте' : login == '' ? 'нет логина' : '';
+function ifelse(login) {  // Сотрудник, Директор, ''
+    let message;
+    message = login == 'Сотрудник' ? 'привет' : login == 'Директор' ? 'здравствуйте' : login == '' ? 'нет логина' : '';    
+}
+
 
 
