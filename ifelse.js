@@ -35,6 +35,7 @@ let result = a + b > 4 ? 'Мало' : 'Много';
 function ifelse(login) {  // Сотрудник, Директор, ''
     let message;
     message = login == 'Сотрудник' ? 'привет' : login == 'Директор' ? 'здравствуйте' : login == '' ? 'нет логина' : '';    
+    return message;
 }
 
 
